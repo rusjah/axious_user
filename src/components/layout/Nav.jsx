@@ -2,7 +2,7 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div className="navbar bg-base-100 h-[10vh]">
+    <div className="navbar bg-base-300 h-[10vh]">
     <div className="flex-1">
         <a className="btn btn-ghost text-xl">Users</a>
     </div>
