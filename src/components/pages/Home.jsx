@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Home() {
   return (
@@ -9,7 +11,7 @@ function Home() {
         <h2 className="card-title">All information just here!!</h2>
         <p>Let's go to explore our new users together</p>
         <div className="card-actions justify-end">
-            <button className="btn btn-primary font-bold">Show more</button>
+            <Link to={'/users'}><button className="btn btn-primary font-bold">Show more</button></Link>
         </div>
         </div>
      </div>
